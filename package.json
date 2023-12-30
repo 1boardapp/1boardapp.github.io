@@ -1,0 +1,14 @@
+{
+  "name": "1boardapp.github.io",
+  "version": "1.0.0",
+  "description": "Oneboard website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "timonharz",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}

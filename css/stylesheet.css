@@ -5515,7 +5515,7 @@ li {
 .button-small {
     padding: 12px 20px;
     border-radius: 71px;
-    background-color: #000;
+    background-color: #0051FE;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     color: #fff;
@@ -6908,7 +6908,7 @@ li {
 }
 
 .social-media-wrapper:hover {
-    background-color: rgba(202, 239, 69, 0.7);
+    background-color: #0051FE;
     -webkit-transform: translate(0px, -5px);
     -ms-transform: translate(0px, -5px);
     transform: translate(0px, -5px);

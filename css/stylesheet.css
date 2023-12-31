@@ -5515,7 +5515,7 @@ li {
 .button-small {
     padding: 12px 20px;
     border-radius: 71px;
-    background-color: #0051FE;
+    background-color: #000;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
     color: #fff;
@@ -5525,7 +5525,7 @@ li {
 }
 
 .button-small:hover {
-    background-color: #caef45;
+    background-color: #0051FE;
     color: #000;
 }
 

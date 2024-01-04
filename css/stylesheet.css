@@ -7500,7 +7500,7 @@ li {
     justify-content: space-between;
     border-radius: 13px;
     background-color: #fff;
-    box-shadow: 0 10px 70px 0 #0051FE;
+    box-shadow: 0 10px 70px 0 rgba(83, 83, 83, 0.07);
 }
 
 .pricing-right-wrpper {

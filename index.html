@@ -7,6 +7,16 @@
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
 
+<script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-analytics.js"></script>
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyAWo8v4NbNnDRbn-2OG1TNjPrcZAWk-cXc",
+    authDomain: "oneboard-be248.firebaseapp.com", projectId: "oneboard-be248", storageBucket: "oneboard-be248.appspot.com", messagingSenderId: "121265411796", appId: "1:121265411796:web:c7560e1724dfdc7579cd41", measurementId: "G-C1ER5JDEBV" }; // Initialize
+    Firebase const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app);
+</script>
+
+<script src="https://cdn.telemetrydeck.com/websdk/telemetrydeck.min.js" data-app-id="060A50A1-08CE-4ADE-92D7-F9A3917B2A31"></script>
+
 <head>
     <style>
         .wf-force-outline-none[tabindex="-1"]:focus {

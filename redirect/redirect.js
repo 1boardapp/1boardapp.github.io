@@ -1,6 +1,6 @@
 function redirect() {
     var appUrl = "Oneboard://";
-    var fallbackUrl = "https://fallback-website.com"; // Replace with your fallback URL
+    var fallbackUrl = "https://apps.apple.com/de/app/oneboard/id6474271576"; // Replace with your fallback URL
 
     // Attempt to open the app
     window.location.href = appUrl;

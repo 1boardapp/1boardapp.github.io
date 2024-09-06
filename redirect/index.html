@@ -1,6 +1,18 @@
-<script src="redirect.js"></script>
+<!DOCTYPE html>
+<html>
 
-<body onload="redirect()">
+<head>
+    <script src="redirect.js"></script>
+</head>
+
+<body>
     <h1>Redirecting to Oneboard...</h1>
-
+    <script>
+        // Call redirect() after the page has fully loaded
+        window.onload = function() {
+            redirect();
+        };
+    </script>
 </body>
+
+</html>
